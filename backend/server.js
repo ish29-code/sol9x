@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://sol9x-frontend-jlih.onrender.com",
     credentials: true,
 }));
 
